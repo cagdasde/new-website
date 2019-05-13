@@ -1,0 +1,210 @@
+.menu
+{
+    display: flex;
+    align-items: flex-end;
+    
+    background: rgb(158, 38, 38);
+    
+    color: whitesmoke;
+    float: left;
+    font: 20px bold ;
+    font-family: Arial, Helvetica, sans-serif;
+padding: 14px 20px ;
+width: 150px;
+margin: 33px;
+text-decoration: none;
+border-radius: 44px 20px;
+
+}
+
+.logo{
+  float: left;
+  background:whitesmoke;
+ list-style-type: none;
+ 
+
+}
+
+  
+a:hover:not(.active) {
+
+    background-color:whitesmoke;
+    color:red ;
+    font: bold;
+}
+
+.active {
+
+    background-color:red;
+    color: whitesmoke;
+    font: bold;
+}
+
+  
+body{
+    background: url(images/background.jpg) no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+    /*iletişim form*/
+  .form {
+      
+      color:white;
+      font-size: 20px;
+      padding: 100px 10px 5px 5px ;
+      
+      
+      
+      border-radius:10px 5px;
+      
+      
+  
+   
+  }
+  /*iletişim bilgileri*/
+  input[type=text], input[type=number]  {
+    width: 50%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing:content-box; 
+    margin-top: 6px 10px 10px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+    
+  }
+  textarea{
+    width: 50%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing:content-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+
+  }
+  /*gönder butonu*/
+  input[type=button]
+  {
+      padding: 12px 20px;
+      border:none;
+      border-radius: 44px;
+      color: white;
+      cursor: pointer;
+      background: red;
+      font: 20px bold ;
+      
+      
+  }
+  input[type=button]:hover {
+      background: white;
+      color: red;
+      
+      
+  }
+  /*photos*/
+
+  div.galeri {
+    
+    color: #ccc;
+  position: relative;
+    width: 100px;
+  }
+  
+  
+    
+  
+  
+  div.galeri img {
+    width: 100px;
+    height: auto;
+  
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: end;
+    float: left;
+    
+  }
+    
+ .cag{
+   background: blue;
+   color: white;
+ 
+
+  }
+  
+
+ul{
+  box-sizing: border-box;
+  float: left;
+  padding-left: 0px;
+
+  
+
+}
+#glr{
+  float: left;
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 150px;
+  margin-top: 2px;
+  font-size: 20px center;
+  color: whitesmoke;
+}
+
+.tarayıcı{
+  float: right;
+ margin-right: 75px;
+ margin-top: 5px;
+}
+#gender{
+  float: right;
+ margin-right: 225px;
+ margin-top: 30px;
+}
+
+  
+
+.liste2{
+  float: left;
+  list-style-type: none;
+
+
+}
+
+.liste3{
+  list-style-type: none;
+  
+
+}
+
+#liste
+ {
+  
+  color: whitesmoke;
+background: red;
+  float: left;
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+#parag{
+  background: red;
+  color: whitesmoke;
+  
+}
+
+p {
+  background: white;
+  color: black;
+  width: 1200px;
+  float: left;
+  font-size: 20px;
+}
+
